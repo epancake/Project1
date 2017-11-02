@@ -1,0 +1,153 @@
+header, footer {
+  padding: 2rem 3rem;
+}
+
+h1 {
+  color: rgba(33, 32, 36, 0.51);
+  font-size: 5rem;
+  padding: 2rem 0 4rem 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 2rem;
+  padding-top: 1rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.5rem;
+  padding: 1.5rem 0 0 0;
+  line-height: normal;
+}
+
+p {
+  color: black;
+}
+
+article {
+  margin: 1rem 3rem 0 3rem;
+  border-top: .5px solid rgb(114, 116, 116);
+}
+
+time {
+  font-family: sans-serif;
+  color: rgb(114, 116, 116);
+  font-weight: bold;
+}
+
+article a {
+  color: blue;
+}
+
+article a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+article p {
+  padding-top: 1rem;
+}
+
+article img {
+  padding: 1rem 0;
+  width: 39rem;
+}
+
+footer {
+  margin: 2rem 0 0 0;
+}
+
+footer p {
+  padding-left: 3rem;
+  color: white;
+}
+
+/********goals page*******/
+ol {
+  list-style: decimal;
+  list-style-position: inside;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+ol li {
+  padding: .5em 0 0 0;
+}
+
+/*******meetups page******/
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+padding-left: 1em;
+text-indent: -1em;
+
+/*********about me**********/
+
+ul ul {
+  list-style: circle;
+  margin-left:10%
+}
+
+ul {
+  list-style: square;
+    margin-left: 20px
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container,
+.grid {
+  margin: 0 auto;
+}
+
+.container {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.grid,
+.col-1-3,
+.col-2-3 {
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+}
+
+
+.col-1-3,
+.col-2-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.col-1-3 {
+  width: 33.33%;
+}
+
+.col-2-3 {
+  width: 66.66%;
+}
+
+.row {
+  padding: 10px 0 10px 0;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 38px;
+}

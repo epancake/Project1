@@ -1,0 +1,65 @@
+body {
+  font-family: 'Exo 2', sans-serif;
+  line-height: 1.3rem;
+}
+
+h2 {
+  line-height: normal;
+}
+
+/***top and bottom***/
+
+.border {
+  text-align: right;
+  padding: .5rem 2rem .5rem 0;
+  background-color: rgba(33, 32, 36, 0.51);
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-between;
+  padding-left: 3rem;
+}
+
+.border h2 {
+  font-size: 1.5rem;
+}
+.border h2, p {
+  padding-right: 2rem;
+  color: white;
+}
+
+.border nav {
+  padding-right: 2rem;
+}
+
+.border nav ul li {
+  display: inline-block;
+  padding: .5rem .5rem;
+  text-transform: uppercase;
+  font-size: smaller;
+}
+
+/***main***/
+
+
+h1 {
+  color: white;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+h3 {
+  font-size: 1.5rem;
+  color: rgba(31, 83, 121, 0.69);
+  padding-bottom: 1rem;
+}
+
+strong {
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}

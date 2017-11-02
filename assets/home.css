@@ -1,0 +1,91 @@
+main {
+  padding: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  height: 91vh;
+}
+
+/***hero image and heading***/
+
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero img {
+  min-width: 10rem;
+  max-width: 60rem;
+  max-height: 15rem;
+}
+
+h1, .container1 h2 {
+  position: absolute;
+  font-family: 'Shadows Into Light', cursive;
+  padding-right: 20rem;
+}
+
+h1 {
+  font-size: 8rem;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container1 h2 {
+  position: absolute;
+  top: 83%;
+  left: 33%;
+  transform: translate(-50%, -50%);
+  font-family: 'Shadows Into Light', cursive;
+  padding-right: 5rem;
+  font-size: 2rem;
+}
+
+/***Picture Nav***/
+
+nav img {
+  border-radius: 50%;
+  border: 3px solid rgb(159, 202, 246);
+  margin: 1.5rem 2rem 1rem 2rem;
+  height: 10rem;
+  width: 5rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+/***Aside***/
+
+aside h3 {
+  padding-top: 2rem;
+}
+
+aside {
+  display: flex;
+  flex-flow: column;
+  /*min-width: 40%;*/
+  /*margin-left: 1rem;*/
+}
+
+aside img {
+  border-radius: 5%;
+  max-width: 75%;
+  border: 1px solid black;
+  align-self: center;
+}
+
+aside p {
+  padding: 2rem 1rem 0 1rem;
+  color: black;
+}
+
+.readmore a {
+  color: orange;
+  float: right;
+  font-weight: bold;
+}
