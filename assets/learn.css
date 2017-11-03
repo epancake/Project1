@@ -93,14 +93,11 @@ ol li {
   padding: 1rem 0 0 0;
 }
 
-padding-left: 1em;
-text-indent: -1em;
-
 /*********about me**********/
 
 ul ul {
   list-style: circle;
-  margin-left:10%
+  margin-left: 10%
 }
 
 ul {
