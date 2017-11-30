@@ -1,0 +1,52 @@
+header, footer {
+  padding: 2rem 3rem;
+}
+
+h1 {
+  color: rgba(33, 32, 36, 0.51);
+  font-size: 5rem;
+  padding: 2rem 0 4rem 0;
+  line-height: 5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  line-height: normal;
+}
+
+h3 {
+  font-size: 2rem;
+  padding-top: 1rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.5rem;
+  padding: 1.5rem 0 0 0;
+  line-height: normal;
+}
+
+article a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+p {
+  color: black;
+}
+
+article {
+  margin: 1rem 3rem 0 3rem;
+  border-top: .2rem solid rgb(114, 116, 116);
+}
+
+/***Picture Nav***/
+
+img {
+  border-radius: 50%;
+  border: 3px solid rgb(159, 202, 246);
+  margin: 1.5rem 2rem 1rem 2rem;
+  height: 10rem;
+  width: 10rem;
+}
